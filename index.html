@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title> Gerador de Senhas Aletorias</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Gerador de <br> Senhas Aletorias
+        </h1>
+        <p>
+            Proteja suas senhas de internet criando senhas <br> fortes e seguras
+        </p>
+        <input id="inputPasswordId" type="text"  />
+        <h5> Quantidade de caracteres</h5>
+        
+        <div>
+            <input id="inputLengthId" type="range" min="6" max="24">
+          <label for="inputLengthId"></label>
+        </div>
+        <div class="checkbox">
+          <input id="chkLowerId" type="checkbox" />
+          <label for="chkLowerId">abc </label>
+
+          <input id="chkUpperId" type="checkbox" />
+          <label for="chkUpperId">ABC</label>
+
+          <input id="chkNumberId" type="checkbox" />
+          <label for="chkNumberId">123</label>
+
+          <input id="chkSymbolsId" type="checkbox" />
+          <label for="chkSymbolsId">$&#</label>
+        </div>
+     
+        <button id="btnGerar"> Gerar</button>
+        <button id="btnCopiar"> Copiar! </button>
+
+      </main>
+      <script src="script.js"></script>
+</body>
+
+</html>
